@@ -4,7 +4,8 @@
     "cypress-xpath": "^2.0.1"
   },
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "cypress-tags": "^1.0.0",
