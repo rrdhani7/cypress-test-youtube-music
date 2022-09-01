@@ -1,8 +1,10 @@
 # cypress-test-youtube-music
 Simple cypress project to test Youtube Music
 
-## Installation
+## Prerequisite
+Please refer to this page for detail requirement: https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements
 
+## Installation
 Clone this github project and install with following steps: 
 ```bash
   cd cypress-test-youtube-music
