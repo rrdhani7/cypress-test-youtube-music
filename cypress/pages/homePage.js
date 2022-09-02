@@ -3,8 +3,7 @@ class loginPage{
         searchBtn: () => cy.get('.style-scope ytmusic-search-box'),
         searchField: () => cy.get('input[class="style-scope ytmusic-search-box"]'),
         firstMusicPlayBtn: () => cy.get('ytmusic-play-button-renderer[id="play-button"]').first(),
-        exploreTabBtn: () => cy.contains('Eksplorasi'),
-        libraryTabBtn: () => cy.contains('Koleksi')
+        exploreTabBtn: () => cy.get('ytmusic-pivot-bar-item-renderer[tab-id="FEmusic_explore"]')
     }
 
     clickSearch(){
@@ -21,10 +20,6 @@ class loginPage{
 
     clickExploreTab(){
         this.elements.exploreTabBtn().click()
-    }
-
-    clickLibraryTab(){
-        this.elements.libraryTabBtn().click()
     }
 
 }
